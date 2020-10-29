@@ -1,0 +1,42 @@
+.MayTinh{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+}
+.MayTinh td{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(120, 157, 189);
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    /* border-radius: 20px;
+    list-style: circle; */
+}
+.Tong{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(185, 205, 223);
+}
+.MayTinh td:hover{
+    background-color: rgb(66, 100, 89);
+}
+@media only screen and (max-width: 700px) {
+    .MayTinh{
+        margin-left: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 555px) {
+    .MayTinh{
+        margin-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 463px) {
+    .MayTinh{
+        margin-left: 5%;
+    }
+  }
